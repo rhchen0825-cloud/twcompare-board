@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#08090c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="全網比價看板">
+  <title>全網智慧比價看板 | TWCOMPARE Public Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #08090C;
+      --card-bg: rgba(18, 20, 26, 0.75);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --card-hover: rgba(56, 189, 248, 0.4);
+      --text-main: #F1F3F9;
+      --text-muted: #94A3B8;
+      --text-sub: #64748B;
+      --primary: #38BDF8;
+      --emerald: #10B981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      background-image: radial-gradient(ellipse 70% 40% at 50% -10%, rgba(56, 189, 248, 0.12), transparent 75%);
+      background-repeat: no-repeat;
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', 'Noto Sans TC', sans-serif;
+      min-height: 100vh;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 40px;
+    }
+    .mono { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; }
+    .nav-bar {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      background: rgba(8, 9, 12, 0.85);
+      backdrop-filter: blur(20px);
+      position: sticky; top: 0; z-index: 50;
+    }
+    .nav-content {
+      max-width: 1240px; margin: 0 auto; padding: 14px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .brand-group { display: flex; align-items: center; gap: 10px; }
+    .brand-icon {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 800; font-size: 14px;
+    }
+    .brand-title { font-size: 18px; font-weight: 800; color: #fff; }
+    .badge-public {
+      font-size: 11px; font-weight: 600; background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25); color: #38bdf8;
+      padding: 2px 8px; border-radius: 999px;
+    }
+    .hero-wrap { max-width: 1240px; margin: 0 auto; padding: 36px 24px 20px; }
+    .hero-header { text-align: center; margin-bottom: 28px; }
+    .hero-header h1 { font-size: 34px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+    .hero-header p { color: var(--text-muted); font-size: 14px; max-width: 600px; margin: 0 auto; }
+    .search-dock {
+      background: var(--card-bg); backdrop-filter: blur(20px);
+      border: 1px solid var(--card-border); border-radius: 18px; padding: 14px 20px;
+      max-width: 800px; margin: 0 auto 30px; box-shadow: 0 20px 40px -15px rgba(0,0,0,0.8);
+      display: flex; align-items: center; gap: 12px;
+    }
+    .search-input {
+      flex: 1; background: transparent; border: none; color: #fff; font-size: 15px; font-weight: 500;
+    }
+    .search-input:focus { outline: none; }
+    .category-pills { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 30px; }
+    .pill {
+      background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 999px; padding: 5px 12px; font-size: 12px; color: var(--text-muted);
+      cursor: pointer; transition: all 0.15s;
+    }
+    .pill:hover, .pill.active { background: rgba(56, 189, 248, 0.15); border-color: rgba(56, 189, 248, 0.4); color: #38bdf8; }
+    .product-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;
+    }
+    .card {
+      background: var(--card-bg); backdrop-filter: blur(14px);
+      border: 1px solid var(--card-border); border-radius: 16px; padding: 16px;
+      display: flex; flex-direction: column; justify-content: space-between;
+      transition: all 0.2s ease;
+    }
+    .card:hover { border-color: var(--card-hover); transform: translateY(-3px); box-shadow: 0 16px 32px -10px rgba(0,0,0,0.6); }
+    .photo-well {
+      width: 100%; height: 180px; border-radius: 12px;
+      background: radial-gradient(circle at center, #222632 0%, #141720 100%);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      display: flex; align-items: center; justify-content: center; padding: 12px; margin-bottom: 12px;
+    }
+    .photo-well img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3)); }
+    .photo-fallback { font-size: 32px; color: #64748b; }
+    .card-title {
+      font-size: 14px; font-weight: 600; color: #fff; line-height: 1.4;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+      margin-bottom: 12px; text-decoration: none;
+    }
+    .card-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.06); padding-top: 12px; margin-top: auto;
+      display: flex; align-items: flex-end; justify-content: space-between;
+    }
+    .card-price { font-size: 22px; font-weight: 800; color: #38bdf8; line-height: 1; }
+    .card-platform { font-size: 11px; font-weight: 600; color: #cbd5e1; margin-top: 4px; }
+    .btn-buy {
+      background: rgba(255, 255, 255, 0.08); color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px;
+      padding: 6px 12px; font-size: 12px; font-weight: 700; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s;
+    }
+    .btn-buy:hover { background: #38bdf8; color: #08090c; border-color: #38bdf8; }
+    .meta-time { text-align: center; font-size: 12px; color: var(--text-sub); margin-top: 40px; }
+    @media (max-width: 768px) {
+      .hero-header h1 { font-size: 24px; }
+      .search-dock { padding: 12px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav-bar">
+    <div class="nav-content">
+      <div class="brand-group">
+        <div class="brand-icon">⚡</div>
+        <span class="brand-title">TWCOMPARE</span>
+        <span class="badge-public">公開快照看板</span>
+      </div>
+      <div id="liveStatus" style="font-size: 12px; color: #10b981;">● 即時數據已核驗</div>
+    </div>
+  </nav>
+
+  <main class="hero-wrap">
+    <div class="hero-header">
+      <h1>全網真實落地價 • 公開精選看板</h1>
+      <p>即時彙整日本亞馬遜、酷澎、momo、PChome 與蝦皮，穿透配件包與引流誘餌之真品最優價格。</p>
+    </div>
+
+    <!-- Search Dock -->
+    <div class="search-dock">
+      <span style="font-size: 16px;">🔍</span>
+      <input type="text" id="filterInput" class="search-input" placeholder="在看板中即時篩選 (例: Snow Peak, 逗點, Apple Watch, Dyson, Switch)...">
+      <span id="matchCount" class="mono" style="font-size: 12px; color: var(--text-muted);">10 款</span>
+    </div>
+
+    <!-- Category Filter Pills -->
+    <div class="category-pills" id="categoryPills">
+      <button class="pill active" onclick="setCategory('all')">全部商品</button>
+      <button class="pill" onclick="setCategory('Outdoor')">戶外露營</button>
+      <button class="pill" onclick="setCategory('3C')">3C 與周邊</button>
+      <button class="pill" onclick="setCategory('Appliance')">生活家電</button>
+      <button class="pill" onclick="setCategory('Gaming')">遊戲娛樂</button>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="product-grid" id="productGrid">
+      <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;">載入看板數據中...</div>
+    </div>
+
+    <div class="meta-time" id="metaTime">資料載入中...</div>
+  </main>
+
+  <script>
+    let boardData = null;
+    let activeCategory = 'all';
+
+    async function loadBoard() {
+      try {
+        const res = await fetch(`./compare.json?t=${Date.now()}`, { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        boardData = await res.json();
+        renderProducts();
+        const builtDate = new Date(boardData.built_at * 1000);
+        document.getElementById('metaTime').textContent = `快照更新時間：${builtDate.toLocaleString('zh-TW')} • 資料來源：10 大購物平台交叉比價`;
+      } catch (err) {
+        const errDiv = document.createElement('div');
+        errDiv.style.cssText = 'grid-column: 1/-1; text-align: center; color: #f87171; padding: 40px;';
+        errDiv.textContent = `無法讀取看板資料：${err.message}`;
+        const gridEl = document.getElementById('productGrid');
+        gridEl.replaceChildren(errDiv);
+      }
+    }
+
+    function setCategory(cat) {
+      activeCategory = cat;
+      document.querySelectorAll('#categoryPills .pill').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('onclick').includes(cat));
+      });
+      renderProducts();
+    }
+
+    document.getElementById('filterInput').addEventListener('input', () => {
+      renderProducts();
+    });
+
+    function renderProducts() {
+      if (!boardData || !boardData.products) return;
+
+      const filterText = document.getElementById('filterInput').value.trim().toLowerCase();
+      const grid = document.getElementById('productGrid');
+      grid.replaceChildren();
+
+      const matched = boardData.products.filter(item => {
+        if (activeCategory !== 'all') {
+          if (activeCategory === 'Outdoor' && !item.expected_domain.toLowerCase().includes('outdoor') && !item.expected_domain.toLowerCase().includes('bedding')) return false;
+          if (activeCategory === '3C' && !item.expected_domain.toLowerCase().includes('3c') && !item.expected_domain.toLowerCase().includes('smart') && !item.expected_domain.toLowerCase().includes('audio')) return false;
+          if (activeCategory === 'Appliance' && !item.expected_domain.toLowerCase().includes('appliance') && !item.expected_domain.toLowerCase().includes('kitchen') && !item.expected_domain.toLowerCase().includes('daily')) return false;
+          if (activeCategory === 'Gaming' && !item.expected_domain.toLowerCase().includes('gaming')) return false;
+        }
+        if (filterText) {
+          const matchTarget = `${item.query} ${item.category} ${item.best_offer?.title || ''}`.toLowerCase();
+          return matchTarget.includes(filterText);
+        }
+        return true;
+      });
+
+      document.getElementById('matchCount').textContent = `${matched.length} 款`;
+
+      if (matched.length === 0) {
+        const emptyDiv = document.createElement('div');
+        emptyDiv.style.cssText = 'grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;';
+        emptyDiv.textContent = '找不到符合的商品';
+        grid.replaceChildren(emptyDiv);
+        return;
+      }
+
+      matched.forEach(item => {
+        const o = item.best_offer;
+        if (!o) return;
+
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const well = document.createElement('div');
+        well.className = 'photo-well';
+        if (o.image_url) {
+          const img = document.createElement('img');
+          img.src = o.image_url;
+          img.alt = o.title;
+          well.appendChild(img);
+        } else {
+          well.innerHTML = '<span class="photo-fallback">🛍️</span>';
+        }
+        card.appendChild(well);
+
+        const metaTag = document.createElement('div');
+        metaTag.style.cssText = 'display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: var(--text-sub); margin-bottom: 6px;';
+        const domSpan = document.createElement('span');
+        domSpan.style.cssText = 'color: #38bdf8; font-weight: 600;';
+        domSpan.textContent = `#${item.expected_domain}`;
+        const cntSpan = document.createElement('span');
+        cntSpan.className = 'mono';
+        cntSpan.textContent = `已穿透比價 ${item.eligible_count} 款`;
+        metaTag.appendChild(domSpan);
+        metaTag.appendChild(cntSpan);
+        card.appendChild(metaTag);
+
+        const titleA = document.createElement('a');
+        titleA.className = 'card-title';
+        titleA.href = o.url;
+        titleA.target = '_blank';
+        titleA.rel = 'noopener noreferrer';
+        titleA.textContent = `【${item.query}】${o.title}`;
+        card.appendChild(titleA);
+
+        const bottom = document.createElement('div');
+        bottom.className = 'card-bottom';
+
+        const priceWrap = document.createElement('div');
+        const price = document.createElement('div');
+        price.className = 'card-price mono';
+        price.textContent = `NT$ ${Math.round(o.landed_price || o.price_twd).toLocaleString()}`;
+
+        if (item.eligible_top3 && item.eligible_top3.length > 1) {
+          const runnerUp = item.eligible_top3[1];
+          const bestP = o.landed_price || o.price_twd;
+          const diff = (runnerUp.price_twd || runnerUp.price || 0) - bestP;
+          if (diff > 50) {
+            const badge = document.createElement('span');
+            badge.style.cssText = 'font-size: 11px; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.3); color: #10b981; padding: 2px 6px; border-radius: 4px; font-weight: 700; margin-left: 6px; vertical-align: middle;';
+            badge.textContent = `省 NT$ ${Math.round(diff).toLocaleString()}`;
+            price.appendChild(badge);
+          }
+        }
+        
+        const platform = document.createElement('div');
+        platform.className = 'card-platform';
+        platform.textContent = `${o.platform} • ${o.shipping_status === 'free' ? '免運' : '含運'}`;
+        
+        priceWrap.appendChild(price);
+        priceWrap.appendChild(platform);
+        bottom.appendChild(priceWrap);
+
+        const btn = document.createElement('a');
+        btn.className = 'btn-buy';
+        btn.href = o.url;
+        btn.target = '_blank';
+        btn.rel = 'noopener noreferrer';
+        btn.textContent = '直達 ➔';
+        bottom.appendChild(btn);
+
+        card.appendChild(bottom);
+        grid.appendChild(card);
+      });
+    }
+
+    loadBoard();
+  </script>
+</body>
+</html>

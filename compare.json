@@ -1,0 +1,988 @@
+{
+  "schema": "twcompare-public-v1",
+  "built_at": 1794496287,
+  "total_items": 10,
+  "categories": [
+    "Outdoor",
+    "Bedding/Outdoor",
+    "3C Peripheral",
+    "Smart Device",
+    "Appliance",
+    "Gaming",
+    "Kitchen",
+    "Daily",
+    "Audio"
+  ],
+  "products": [
+    {
+      "index": 1,
+      "query": "Snow Peak TP-259-2",
+      "category": "戶外露營精準配件 (Precision Camping SKU)",
+      "description": "測試子型號頂布 vs 本體帳篷/地墊地布混淆防禦",
+      "expected_domain": "Outdoor",
+      "elapsed_seconds": 4.24,
+      "total_found": 30,
+      "eligible_count": 10,
+      "excluded_count": 7,
+      "best_offer": {
+        "title": "スノーピーク(snow peak)ランドネストシェルター ［4人用］TP-259/TP-262/SET-261 キャンプ アウトドア (ルーフシート TP-259-2)",
+        "price_twd": 2307.4,
+        "landed_price": null,
+        "platform": "Amazon JP (日本亞馬遜)",
+        "source": "amazon_jp",
+        "url": "https://www.amazon.co.jp/dp/B0DQWF2ZDL",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "スノーピーク(snow peak)ランドネストシェルター ［4人用］TP-259/TP-2",
+          "price_twd": 2307.4,
+          "platform": "Amazon JP (日本亞馬遜)",
+          "url": null
+        },
+        {
+          "title": "Snow Peak Landnest 別墅帳頂布 TP-259-2",
+          "price_twd": 2570.0,
+          "platform": "Coupang 酷澎",
+          "url": null
+        },
+        {
+          "title": "【Snow Peak】Landnest 別墅帳頂布 TP-259-2",
+          "price_twd": 2570.0,
+          "platform": "Feebee 聚合比價",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 1
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 1
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "ok",
+          "count": 2
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 7
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "ok",
+          "count": 3
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 8
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "query": "逗點床墊",
+      "category": "露營熱門中文複合詞 (Chinese Compound Camping)",
+      "description": "測試無空格複合詞斷詞、情趣用品/枕頭/床包/競品SEO堆砌防禦",
+      "expected_domain": "Bedding/Outdoor",
+      "elapsed_seconds": 2.64,
+      "total_found": 88,
+      "eligible_count": 26,
+      "excluded_count": 58,
+      "best_offer": {
+        "title": "逗點x北緯 聯名3D睡墊 充氣床墊 露營睡墊 機能布料 隔絕濕冷 逐露天下",
+        "price_twd": 3850.0,
+        "landed_price": null,
+        "platform": "蝦皮購物 (via BigGo)",
+        "source": "biggo",
+        "url": "https://biggo.com.tw/r/?i=tw_mall_shopeemall&id=456388045.9187678303&purl=https%3A%2F%2Fshopee.tw%2Fproduct%2F456388045%2F9187678303&lb=product_searchpage&q=%E9%80%97%E9%BB%9E+%E5%BA%8A%E5%A2%8A",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "逗點x北緯 聯名3D睡墊 充氣床墊 露營睡墊 機能布料 隔絕濕冷 逐露天下",
+          "price_twd": 3850.0,
+          "platform": "蝦皮購物 (via BigGo)",
+          "url": null
+        },
+        {
+          "title": "逗點x北緯聯名款TPU單/雙人3D睡墊 XL/L/S 床墊 絲絨床墊 登山 野炊 露營 悠",
+          "price_twd": 4350.0,
+          "platform": "momo 購物網",
+          "url": null
+        },
+        {
+          "title": "【23N 北緯23度】逗點x北緯 聯名3D睡墊 單人 77 湖水藍 充氣床墊 露營睡墊 機",
+          "price_twd": 4350.0,
+          "platform": "momo 購物網",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 1
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 6
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 10
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "ok",
+          "count": 6
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 20
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "ok",
+          "count": 5
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "query": "羅技滑鼠",
+      "category": "3C大宗高頻中文無空格 (High-Volume 3C Peripheral)",
+      "description": "測試滑鼠主體 vs 滑鼠墊/鼠貼/微動配件過濾，正品確認率",
+      "expected_domain": "3C Peripheral",
+      "elapsed_seconds": 2.8,
+      "total_found": 144,
+      "eligible_count": 66,
+      "excluded_count": 51,
+      "best_offer": {
+        "title": "logitech 羅技 多工靜音無線滑鼠 M650 白色",
+        "price_twd": 813.0,
+        "landed_price": null,
+        "platform": "Coupang 酷澎 (via BigGo)",
+        "source": "biggo",
+        "url": "https://biggo.com.tw/r/?i=tw_pec_coupang&id=499448270471188&purl=https%3A%2F%2Fcoupang.onelink.me%2FyowQ%3FpageKey%3D499448270471188%26ctag%3D499448270471188%26itemId%3D501588317601792%26vendorItemId%3D501588313423877%26pid%3Dcoupang_partners%26c%3DAF8782393%26is_retargeting%3Dtrue%26af_reengagement_window%3D7d%26af_c_id%3DAF8782393%26af_sub5%3DTWAFSDP%26af_click_lookback%3D7d%26deep_link_value%3Dcoupang%253A%252F%252Fproduct%253FpId%253D499448270471188%2526itemId%253D501588317601792%2526vendorItemId%253D501588313423877%26af_r%3Dhttps%253A%252F%252Flink.tw.coupang.com%252Fre2%252FTWAFSDP%253Flptag%253DAF8782393&lb=product_searchpage&q=%E7%BE%85%E6%8A%80+%E6%BB%91%E9%BC%A0",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "logitech 羅技 多工靜音無線滑鼠 M650 白色",
+          "price_twd": 813.0,
+          "platform": "Coupang 酷澎 (via BigGo)",
+          "url": null
+        },
+        {
+          "title": "【Logitech 羅技】M650多工靜音無線藍牙滑鼠",
+          "price_twd": 990.0,
+          "platform": "momo 購物網",
+          "url": null
+        },
+        {
+          "title": "【Logitech 羅技】POP Mouse無線藍芽滑鼠",
+          "price_twd": 990.0,
+          "platform": "momo 購物網",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 20
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 60
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 24
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "ok",
+          "count": 6
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 4
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "query": "Apple Watch Series 10",
+      "category": "旗艦智慧穿戴裝置 (Flagship Smartwatch)",
+      "description": "測試手錶主機本體 vs 錶帶/保護框耗材，鋁金屬錶殼真機白名單",
+      "expected_domain": "Smart Device",
+      "elapsed_seconds": 4.08,
+      "total_found": 144,
+      "eligible_count": 6,
+      "excluded_count": 137,
+      "best_offer": {
+        "title": "Apple (蘋果) Apple Watch 蘋果手錶10 Series 10 鋁製 42mm GPS款 MWWC3J/A 家電/049",
+        "price_twd": 10030.0,
+        "landed_price": null,
+        "platform": "Feebee 聚合比價",
+        "source": "feebee",
+        "url": "https://feebee.com.tw/rd/3UzyKUBOkNBXTt3jVSpUfNoVG-aGi7o_5nfvX2JKCWho7BdEIGY7aN4mvpboTdxq2xX4dXt8R8DKVXHFpsJU84wJVc0eCNS6CKQdLS7tl4Kvqy85s2H56LFsqVobx3EYpwm27ZhLJMdi1GNpELgOndTdvKYpgfFsTVRk6F25JwPuGx2LY2dyS9D40ukUIvXsNPBCSYBBbftbv9_6VhhyUYsY5lncf7TOq7Q47JjQpBYApwnzdaGq3vJDJQVzupbegVCqh9O618s_wI0XsI5sAiUNUGI4C2U-BsJZa33IdQGyllAdu8-MirwrhmV0PjT15u9k_9zXLuoNCBrqaHRWZ9nz08hGbTOwNuKCNfAgooUsdKoBbgc-uYW2OHejI3nAWOxEKoI1OYWXCetzmxiGomlpgwrqZILMQAJYY2vtIXlLfHYw8JKSlohJ_MGd2xNGQ60sNiwTNtUlElEt83yvKC_mzhx-C9dcpgBxx2D5Jxt2iW75M7TKO8XJLfr-4i3X4SBMNMjb4m7szjWOmYyq2yDNWRlneMhg35seTZChTAdc7g",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "Apple (蘋果) Apple Watch 蘋果手錶10 Series 10 鋁製 42",
+          "price_twd": 10030.0,
+          "platform": "Feebee 聚合比價",
+          "url": null
+        },
+        {
+          "title": "Apple Watch Series 10 42mm GPS + 行動網路",
+          "price_twd": 10151.0,
+          "platform": "Feebee 聚合比價",
+          "url": null
+        },
+        {
+          "title": "Apple Watch Series 10 GPS 46mm【優科技通信】",
+          "price_twd": 12950.0,
+          "platform": "蝦皮商城",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 20
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 22
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 24
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 16
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "query": "Dyson HD16",
+      "category": "高階美髮家電精準型號 (High-End Appliance SKU)",
+      "description": "測試吹風機精準SKU vs 順髮風嘴/烘罩/收納架配件防禦",
+      "expected_domain": "Appliance",
+      "elapsed_seconds": 2.27,
+      "total_found": 105,
+      "eligible_count": 38,
+      "excluded_count": 67,
+      "best_offer": {
+        "title": "dyson 戴森 Supersonic Nural 吹風機 1400W HD16 綠松石",
+        "price_twd": 11600.0,
+        "landed_price": 11600.0,
+        "platform": "Coupang 酷澎",
+        "source": "coupang",
+        "url": "https://feebee.com.tw/rd/3UzCWK40YP8LhdPS0GfgXAc36cnMy_0vfYC6rmJFM_QLICZKYFkpTjxMz2oowktNW16mj2M2G5STyBCdgjOlAsuyUeGJzB-UcdUFRtmnqBSo2mV4A7LbGnQF75I40AC4BiH7pmbOnZAoUpaAbpsHuYfasIrG8aU06HMEwZutPTkwd821DZexi6GF3NVQnvGGk8dEMM-M4E1Q7FfXGzGwWq2FefCM1_-FeBhWkotUiYT87CWmGxnFEjlKwhb-c50gZJ4vRQK_clo8e7Wv6qVZZbkdFgshRu332HtkUgi44PRoK1umkjcHihi37IE0UBnbPHGV7j2H2IymL8B0J8CFd-7ayrnxwMU_GPk5mW_GvEHxMLHl4pvjzDUHnjGGOTTFnvwpc53dx3F6W_ZT0BtemX2gRzKiKySmEF-7nUCw-qZegzdvI8DlWhwaPlet75-aTczOtb4Q58Lg6lbqULWZeM5xU9ULdWSRKKq-lSzzWzTCmTU9p8UjjnxqkJZDdr7KR0Cwe5AQoGXGAa2CqRJrFJGHZAs2Sv0QG7CP4SiMQ98Y0nc75H60YXd0SKaw9923Bv9iynzWhr1zNmk_wXS76P3tXwJMTReRonKDK9xNS6fQHHIBdOM4zn69GwH5UTXqSDxtWTVFe7-x5zaU7aReBgIjfJtw7-MZ9FGsgkMfXvILDKY-m5q7PVKDc5154YTM9u_jBzBNErDKchzL4iin8qAmK-2X0aVrKAS85j56XadXFh-mNdkDBHL5Dj2qcJktYyH",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "dyson 戴森 Supersonic Nural 吹風機 1400W HD16 綠松石",
+          "price_twd": 11600.0,
+          "platform": "Coupang 酷澎",
+          "url": null
+        },
+        {
+          "title": "Dyson戴森 Supersonic Nural HD16 吹風機 粉霧玫瑰",
+          "price_twd": 11869.0,
+          "platform": "BigGo 聚合比價",
+          "url": null
+        },
+        {
+          "title": "Dyson戴森 Supersonic Nural HD16 吹風機 粉霧玫瑰",
+          "price_twd": 11869.0,
+          "platform": "Feebee 聚合比價",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 6
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 2
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 24
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "ok",
+          "count": 4
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 1
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "query": "Dyson 吸塵器",
+      "category": "智慧家庭清潔家電 (Smart Vacuum Cleaner)",
+      "description": "測試吸塵器整機 vs 替換吸頭/滾刷/集塵袋/HEPA濾網耗材防禦",
+      "expected_domain": "Appliance",
+      "elapsed_seconds": 5.22,
+      "total_found": 175,
+      "eligible_count": 63,
+      "excluded_count": 100,
+      "best_offer": {
+        "title": "Dyson 戴森 V8 Cyclone SV55 無線吸塵器",
+        "price_twd": 8799.0,
+        "landed_price": null,
+        "platform": "Feebee 聚合比價",
+        "source": "feebee",
+        "url": "https://feebee.com.tw/rd/3UzFSdeoBAFp2aKX8LrjWqtdOZqts7LcS-xXYnJ1a4x21ykeWtJKmfYrOEyUr8kbF2SE4BLkoGygKxF_yq6S8zP-xXj5RC_FoIG32-Wlb7L2TghbHUAQSrw83gDq316KUUjgVY9BRMS4inQIq2_z9NI6o3O2e2rxx-GYfRGdefVh86ox_N1KyagG3c91x2782AwkNIwbnIsVH8S4k2IlgrY6oFVVdKLTeIgtlgME2WQOtdRv9wNO_1L7x5cAaVHEn_S-A1q0pyOppQv369SQJb8n8W8mMDRoEafci6Ub9GCyEkhULVC2WbT4ZpgpSqVogYJfmAnFpWRJwaar2kNoT6rfWVCfozuBa-Rbl0XxDZEObgYYcbwhLdxW54UhZzZyQYgA59r7Iwl0fpPU96IuPYRMiVamrq0D1xvS4A4vdjv655LFF-9L7QY3_i-TYe0XEnfIYn2-E6JKOrt2oBQWRbxcGnfmvjsMO23GiY2Kawko3X7pdgAPlZhtIVncx75KB0FOaRIHsLNigGRnqtM2jQRKWesF-MA7pbBS1BkoMzb0JsAnldju6ZDhb24AjQbMYqxxY9zKqC3X8ojYHy4SdxvnOtrDdpyksYBFQ7QxtIxOoDxNMAjISsmdVnwcASWrVDO",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "Dyson 戴森 V8 Cyclone SV55 無線吸塵器",
+          "price_twd": 8799.0,
+          "platform": "Feebee 聚合比價",
+          "url": null
+        },
+        {
+          "title": "dyson 戴森 V8 CYCLONE 無線吸塵器 黑藍色 SV55-A",
+          "price_twd": 8899.0,
+          "platform": "Coupang 酷澎 (via BigGo)",
+          "url": null
+        },
+        {
+          "title": "【dyson 戴森】V8 Cyclone SV55 無線吸塵器(全新升級版)",
+          "price_twd": 8999.0,
+          "platform": "momo 購物網",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 20
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 60
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 24
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "ok",
+          "count": 2
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 3
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "ok",
+          "count": 2
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "ok",
+          "count": 9
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "query": "Switch OLED 主機",
+      "category": "熱門電玩遊戲主機 (Gaming Console)",
+      "description": "測試遊戲主機本體 vs 遊戲卡帶/光碟/Joy-Con搖桿帽防禦",
+      "expected_domain": "Gaming",
+      "elapsed_seconds": 2.62,
+      "total_found": 149,
+      "eligible_count": 68,
+      "excluded_count": 79,
+      "best_offer": {
+        "title": "【Nintendo 任天堂】【就是要玩】現貨 NS Switch 主機 台灣公司貨 OLED主機 白色主機 紅藍主機 灰黑 電量加強版 NS主機",
+        "price_twd": 7980.0,
+        "landed_price": 7980.0,
+        "platform": "momo 購物網",
+        "source": "momo",
+        "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=TP00059560005986",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "【Nintendo 任天堂】【就是要玩】現貨 NS Switch 主機 台灣公司貨 OLE",
+          "price_twd": 7980.0,
+          "platform": "momo 購物網",
+          "url": null
+        },
+        {
+          "title": "Switch NS OLED款 白色/電光藍紅主機  OLED版 電力加強版 飛鴻數位館",
+          "price_twd": 8480.0,
+          "platform": "momo 購物網",
+          "url": null
+        },
+        {
+          "title": "【未使用】OLED Nintendo Switch 任天堂Switch 主機 白色",
+          "price_twd": 9008.0,
+          "platform": "Feebee 聚合比價",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 14
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 17
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 24
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 9
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "ok",
+          "count": 5
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "query": "象印 電子鍋",
+      "category": "廚房生活家電 (Kitchen Appliance)",
+      "description": "測試電子鍋主機 vs 替換內鍋/蒸架/蒸氣閥耗材防禦",
+      "expected_domain": "Kitchen",
+      "elapsed_seconds": 2.72,
+      "total_found": 146,
+      "eligible_count": 77,
+      "excluded_count": 46,
+      "best_offer": {
+        "title": "【象印】微電腦電子鍋-6人份 NL-AAF10",
+        "price_twd": 4790.0,
+        "landed_price": null,
+        "platform": "Feebee 聚合比價",
+        "source": "feebee",
+        "url": "https://feebee.com.tw/rd/3UzC_6Az79bjVVwAb2x8x1FBi-Rl9YVtPgbr8DtVqu_ae2NarnrI8pWvLCfP5S0EJJoaGGAB3U4dUTjH4HCPEZ7ldFU5vuKui_nlCLBWMbCMfY3X1lR3_UC2IoFvq5QPrGUw6UsCAIE6SybFQRy2yBa_1rWqghIg38hmPLFd2XAzD5AyAVpav48kvxPGKDKthmf0KOBw0oHjiGr9_2Cgi-rKbiUb8xi63ngBD7d611R0lac1k6ma4KSK3a7-gUSE9Ct2SKRW2fV1CUq5m_AyMKb_ElKmNdwk72WaQYePY-JaijKXpur7viK6D-5X21Aoq3iYDJj9sJoGCPcrhJabQfBpMUEg6LpVj8ANIzHXnewBYiLVYcABRzxbt9kDfd3cnVWFW2jw9en3rfl-s7tD6F1pI73IROVnYHSuX0XIe7sXX65JSJETVKHVT0sBNAvEnu8UpkiC_bK1BAWgTg8Va8VGN7vLy2AwRGa6jtvq0VtCJjubrQ0BFNhD0v-_5AWFago",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "【象印】微電腦電子鍋-6人份 NL-AAF10",
+          "price_twd": 4790.0,
+          "platform": "Feebee 聚合比價",
+          "url": null
+        },
+        {
+          "title": "象印*10人份*日本製 微電腦電子鍋(NL-AAF18)(快)",
+          "price_twd": 4790.0,
+          "platform": "Yahoo購物中心",
+          "url": null
+        },
+        {
+          "title": "【ZOJIRUSHI 象印】6人份*微電腦電子鍋(NL-EAF10E)",
+          "price_twd": 4807.0,
+          "platform": "momo 購物網",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 20
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 54
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 24
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "ok",
+          "count": 9
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 3
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "ok",
+          "count": 6
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "blocked",
+          "count": 0
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "query": "象印保溫杯",
+      "category": "日常生活必備耗材 (Daily Living Consumable)",
+      "description": "測試真空保溫杯 vs 中栓墊圈/防漏矽膠圈/杯套防禦",
+      "expected_domain": "Daily",
+      "elapsed_seconds": 5.46,
+      "total_found": 163,
+      "eligible_count": 81,
+      "excluded_count": 24,
+      "best_offer": {
+        "title": "象印 SM-EC30-GC 300cc 保溫杯 1個",
+        "price_twd": 627.0,
+        "landed_price": null,
+        "platform": "Coupang 酷澎 (via BigGo)",
+        "source": "biggo",
+        "url": "https://biggo.com.tw/r/?i=tw_pec_coupang&id=717650078335048&purl=https%3A%2F%2Fcoupang.onelink.me%2FyowQ%3FpageKey%3D717650078335048%26ctag%3D717650078335048%26itemId%3D717650078253130%26vendorItemId%3D717650078335037%26pid%3Dcoupang_partners%26c%3DAF8782393%26is_retargeting%3Dtrue%26af_reengagement_window%3D7d%26af_c_id%3DAF8782393%26af_sub5%3DTWAFSDP%26af_click_lookback%3D7d%26deep_link_value%3Dcoupang%253A%252F%252Fproduct%253FpId%253D717650078335048%2526itemId%253D717650078253130%2526vendorItemId%253D717650078335037%26af_r%3Dhttps%253A%252F%252Flink.tw.coupang.com%252Fre2%252FTWAFSDP%253Flptag%253DAF8782393&lb=product_searchpage&q=%E8%B1%A1%E5%8D%B0+%E4%BF%9D%E6%BA%AB%E6%9D%AF",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "象印 SM-EC30-GC 300cc 保溫杯 1個",
+          "price_twd": 627.0,
+          "platform": "Coupang 酷澎 (via BigGo)",
+          "url": null
+        },
+        {
+          "title": "象印 不鏽鋼真空保溫瓶 500ml SM-AGE50 保溫杯 保冷杯",
+          "price_twd": 660.0,
+          "platform": "Coupang 酷澎 (via BigGo)",
+          "url": null
+        },
+        {
+          "title": "ZOJIRUSHI 象印 不鏽鋼超輕彈蓋式真空保溫杯",
+          "price_twd": 679.0,
+          "platform": "Coupang 酷澎 (via FindPrice)",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 20
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 60
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 24
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "ok",
+          "count": 4
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 5
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "ok",
+          "count": 15
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "blocked",
+          "count": 0
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "query": "Sony WH-1000XM5",
+      "category": "旗艦抗噪耳罩耳機 (Flagship Audio Headphones)",
+      "description": "測試耳機主體 vs 替換耳罩套/音源線/前代XM4世代衝突防禦",
+      "expected_domain": "Audio",
+      "elapsed_seconds": 2.35,
+      "total_found": 88,
+      "eligible_count": 73,
+      "excluded_count": 10,
+      "best_offer": {
+        "title": "SONY 索尼 無線防噪立體聲耳罩式耳機 WH-1000XM5 銀色",
+        "price_twd": 6892.0,
+        "landed_price": null,
+        "platform": "Coupang 酷澎 (via BigGo)",
+        "source": "biggo",
+        "url": "https://biggo.com.tw/r/?i=tw_pec_coupang&id=470372012982275&purl=https%3A%2F%2Fcoupang.onelink.me%2FyowQ%3FpageKey%3D470372012982275%26ctag%3D470372012982275%26itemId%3D470372013031428%26vendorItemId%3D470372012998656%26pid%3Dcoupang_partners%26c%3DAF8782393%26is_retargeting%3Dtrue%26af_reengagement_window%3D7d%26af_c_id%3DAF8782393%26af_sub5%3DTWAFSDP%26af_click_lookback%3D7d%26deep_link_value%3Dcoupang%253A%252F%252Fproduct%253FpId%253D470372012982275%2526itemId%253D470372013031428%2526vendorItemId%253D470372012998656%26af_r%3Dhttps%253A%252F%252Flink.tw.coupang.com%252Fre2%252FTWAFSDP%253Flptag%253DAF8782393&lb=product_searchpage&q=Sony+WH-1000XM5",
+        "image_url": null,
+        "shipping_status": "unknown",
+        "shipping_twd": null,
+        "condition": "new",
+        "seller": null,
+        "is_bundle": false
+      },
+      "eligible_top3": [
+        {
+          "title": "SONY 索尼 無線防噪立體聲耳罩式耳機 WH-1000XM5 銀色",
+          "price_twd": 6892.0,
+          "platform": "Coupang 酷澎 (via BigGo)",
+          "url": null
+        },
+        {
+          "title": "SONY索尼 WH-1000XM5 全自動個人降噪 無線耳罩式耳機",
+          "price_twd": 6999.0,
+          "platform": "Feebee 聚合比價",
+          "url": null
+        },
+        {
+          "title": "SONY索尼 WH-1000XM5 全自動個人降噪 無線耳罩式耳機",
+          "price_twd": 6999.0,
+          "platform": "Yahoo購物 (via BigGo)",
+          "url": null
+        }
+      ],
+      "provider_statuses": [
+        {
+          "name": "PChome 24h",
+          "status": "ok",
+          "count": 20
+        },
+        {
+          "name": "Yahoo購物中心",
+          "status": "ok",
+          "count": 23
+        },
+        {
+          "name": "momo 購物網",
+          "status": "ok",
+          "count": 24
+        },
+        {
+          "name": "Coupang 酷澎",
+          "status": "ok",
+          "count": 2
+        },
+        {
+          "name": "蝦皮購物",
+          "status": "ok",
+          "count": 5
+        },
+        {
+          "name": "Amazon 美國亞馬遜",
+          "status": "ok",
+          "count": 2
+        },
+        {
+          "name": "Amazon 日本亞馬遜",
+          "status": "blocked",
+          "count": 0
+        },
+        {
+          "name": "Feebee比價網",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "BigGo比價網",
+          "status": "ok",
+          "count": 25
+        },
+        {
+          "name": "FindPrice價格網",
+          "status": "ok",
+          "count": 21
+        }
+      ]
+    }
+  ]
+}
